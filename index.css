@@ -2,7 +2,7 @@ body {
   background-color: peru;
 }
 
-h1 {
+body {
   color: white;
 }
 
@@ -13,4 +13,13 @@ h1 {
 .btn {
   cursor: pointer;
   font-size: 30px;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
 }
