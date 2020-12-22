@@ -1,19 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Something</title>
+    <title>localStorage</title>
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h1 id="title" class="btn">Hello!</h1>
-    <a class="go"" href="https://github.com/J3SUNG">Git</a>
-    <div class="target">Click</div>
-    <script>
-      var t = document.querySelector(".target");
-      t.addEventListener('click', function(event) {
-        console.log(123);
-      });
+    <form class="js-form form">
+      <input type="text" placeholder="What is your name?" />
+    </form>
+    <h4 class ="js-greetings greetings"></h4>
     </script>
-    <script src="index.js"></script>
+    <script src="greeting.js"></script>
   </body>
 </html>

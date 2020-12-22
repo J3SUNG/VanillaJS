@@ -2,15 +2,24 @@ body {
   background-color: peru;
 }
 
-h1 {
-  color: white;
+.form,
+.greetings {
+  display: none;
 }
 
-.clicked {
-  color: skyblue;
+.form {
+  text-align: center;
 }
 
-.btn {
-  cursor: pointer;
+input {
   font-size: 30px;
+}
+
+h4 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+.showing {
+  display: block;
 }
