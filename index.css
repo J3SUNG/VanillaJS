@@ -2,15 +2,8 @@ body {
   background-color: peru;
 }
 
-h1 {
+.js-time {
+  text-align: center;
   color: white;
-}
-
-.clicked {
-  color: skyblue;
-}
-
-.btn {
-  cursor: pointer;
-  font-size: 30px;
+  font-size: 60px;
 }
