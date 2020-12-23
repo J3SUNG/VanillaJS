@@ -5,10 +5,6 @@ const toDoList = document.querySelector(".js-toDoList");
 const TODOS_Ls = "toDos";
 let toDos = [];
 
-function filterFn(toDo) {
-  return toDo.id === 1;
-}
-
 function deleteToDo(event) {
   const btn = event.target;
   const li = btn.parentNode;
