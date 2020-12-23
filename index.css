@@ -1,16 +1,3 @@
 body {
   background-color: peru;
 }
-
-h1 {
-  color: white;
-}
-
-.clicked {
-  color: skyblue;
-}
-
-.btn {
-  cursor: pointer;
-  font-size: 30px;
-}
