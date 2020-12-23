@@ -29,10 +29,11 @@ function handleGeoSucces(position) {
     longitude,
   };
   saveCoords(coordsObj);
+  getWeather(latitude, longitude);
 }
 
 function handleGeoError() {
-  console.error("error");
+  console.log("Not allowed.");
 }
 
 function askForCoords() {
